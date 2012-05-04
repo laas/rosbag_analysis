@@ -1,0 +1,16 @@
+<stack>
+  <description brief="rosbag analysis tool">
+
+    This tool extracts data as gnuplot compatible files so that one
+    can easily analyze rosbag data offline.
+
+  </description>
+  <author>Maintained by Thomas Moulard</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/rosbag_analysis</url>
+  <depend stack="common_msgs" /> <!-- sensor_msgs, geometry_msgs -->
+  <depend stack="geometry" /> <!-- tf -->
+  <depend stack="ros" />
+  <depend stack="ros_comm" /> <!-- std_msgs, rosbag -->
+</stack>
